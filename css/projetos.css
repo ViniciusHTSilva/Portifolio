@@ -1,0 +1,264 @@
+ /*Reset*/
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --green: #628E75;
+    --white: #f9f9f9;
+    --back: #000;
+    
+
+  }
+  @font-face{
+    font-family: poppins;
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: regular;
+    src:url(/fonts/Poppins-Regular.ttf);
+}   
+@keyframes animacao{
+
+  0% {transform: translateY(300px)}
+  
+  100% {transform: translateY(initial)}
+  
+}
+.projetos{
+  background-color: #000;
+  height: 150vh;
+  transition: all .5s;
+}
+  .conteudo-pro{
+   position: relative;
+    width: 800px;
+    top: 90px;
+    left: 100px;
+    color: var(--white);
+    font-family: poppins;
+    font-size: 25px;
+    
+
+  }
+
+  #home{
+    position: relative;
+    left: 1300px;
+    top: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: wheat;
+    border: none;
+  }
+
+
+  .pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.pro-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.publi{
+  width: 900px;
+  padding: 30px;
+  top: 160px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  
+  }
+
+  .publi .card{
+     
+      max-width: 250px;
+      height: 150px;
+      position: relative;
+      margin: 30px 10px;
+      padding: 20px 15px;
+      border-radius: 5px;
+      flex-direction: column;
+      transition: 0.3s ease-in-out;
+      background-color: var(--white);
+      animation-name: animacao;
+      animation-duration: 3s;
+
+  }
+
+  .publi .card:hover{
+      height: 250px;
+
+  }
+
+  .publi .card .jordan{
+      position: relative;
+      width: 270px;
+      height: 150px;
+      top: -50px;
+      z-index: 1;
+      background-image: url(../image/jordan.jpg);
+      background-repeat: no-repeat;
+      background-size: 200px;
+      background-position: 10px;
+    
+  }
+  .publi .card .studio{
+      position: relative;
+      width: 270px;
+      height: 150px;
+      top: -50px;
+      z-index: 1;
+      background-image: url(../image/Studio.png);
+      background-repeat: no-repeat;
+      background-size: 200px;
+      background-position: 10px;
+    
+  }
+
+  .publi .card .clone{
+      position: relative;
+      width: 270px;
+      height: 150px;
+      top: -50px;
+      z-index: 1;
+      background-image: url(../image/Clone.png);
+      background-repeat: no-repeat;
+      background-size: 200px;
+      background-position: 10px;
+    
+  }
+  .publi .card .one{
+    position: relative;
+    width: 270px;
+    height: 150px;
+    top: -50px;
+    z-index: 1;
+    background-image: url(../image/one\ page.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 10px;
+  
+}
+.publi .card .login{
+  position: relative;
+  width: 270px;
+  height: 150px;
+  top: -50px;
+  z-index: 1;
+  background-image: url(../image/Login.png);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: 10px;
+
+}
+  
+.publi .card .blog{
+position: relative;
+width: 270px;
+height: 150px;
+top: -50px;
+z-index: 1;
+background-image: url(../image/blog.png);
+background-repeat: no-repeat;
+background-size: 200px;
+background-position: 10px;
+
+}
+
+  .publi .card .texto{
+      position: relative;
+      margin-top: -80px;
+      text-align: center;
+      padding: 10px;
+      color: black;
+      visibility: hidden;
+      transition: 0.3s ease-in-out;
+
+  }
+
+  .publi .card:hover .texto{
+      visibility: visible;
+      transition-delay: 0.1s;
+      cursor: pointer;
+
+  }
+
+  .publi .card .git{
+    position: absolute;
+    left: 10px;
+    top: 98px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+  
+    background-color: #161616;
+    background-image: url(../image/icons8-github-30.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 2px;
+
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+
+  }
+  .publi .card:hover .git{
+    visibility: visible;
+    transition-delay: 0.1s;
+    cursor: pointer;
+
+}
+
+.git-text{
+  position: relative;
+  top: -7px;
+  color: white;
+  font-family: poppins;
+  font-size:   15px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.site{
+
+  position: absolute;
+  left: 115px;
+  top: 98px;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+
+  background-color: #ffffff;
+ 
+
+}
+.publi .card:hover .site{
+  visibility: visible;
+  transition-delay: 0.1s;
+  cursor: pointer;
+
+}
+.site-text{
+  color: #161616;
+  font-family: poppins;
+  font-size:   15px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.texto h3{
+  font-size: 25px;
+}

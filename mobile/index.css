@@ -1,0 +1,283 @@
+@media screen and (max-width: 578px) { 
+    .intro{
+
+        width: 100%;
+        height: 100vh;
+    }
+
+        .logo{
+            font-size: 20px;
+            left: 10px;
+        }
+
+        .port{
+         
+            width: 200px;
+            height: 200px;
+            left: 40%;
+            top: 30%;
+        
+        }
+    #menu a{
+        top: 10px;
+        left: -15px;
+        width: 80px;
+        height: 10px;
+        font-size: 15px;
+
+ 
+    }
+
+    #menu a:hover{
+        top: 10px;
+        left: -15px;
+        width: 80px;
+        height: 30px;
+        font-size: 15px;
+
+    }
+    
+    
+ }
+
+ /* inicio */
+
+ 
+@media screen and (max-width: 578px) {
+
+
+
+ 
+    .text-inicio{
+     top: 100px;
+     left: 40px;
+     font-size: 20px;
+     width: 300px;
+ }
+ .dow-cv{
+
+     position: absolute;
+     width: 200px;
+     height: 50px;
+     top: 600px;
+     left: 30px;
+     font-size: 11px;
+     background-size: 30px 30px;
+ }
+
+
+
+}
+
+ /* Projetos */
+
+ @media screen and (max-width: 578px) {
+
+
+
+        .conteudo-pro{
+            position: relative;
+            left: 10px;
+            width: 350px;
+            font-size: 13px;
+            top: 10px;
+        }
+
+        #check:checked ~ section .conteudo-pro{
+           margin-left: 100px;
+
+        
+        
+        }
+        
+        .pro, .pro-1{
+            display: flex;
+           flex-direction: column;
+            align-items: center;
+         }
+         #check:checked ~ section .publi{
+            margin-left: 220px;
+ 
+         
+         
+         }
+          
+     
+.publi{
+    width:550px;
+    left: 5px;
+}
+
+.card{
+    position: absolute;
+    width: 350px;
+    left: 0px;
+
+}
+
+.scroll{
+    position: absolute;
+    left: 5px;
+    width: 360px;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#home{
+    left: 330px;
+}
+ }
+   
+
+     
+
+ /* certificação */
+ @media screen and (max-width: 578px) {
+
+    .formacao{
+       height: 120vh;
+    }
+
+    .conteudo-cer{
+        width: 300px;
+        left: 10px;
+        font-size: 10px;
+        top: 60px;
+    }
+    #for-cont{
+        width: 100%;
+        font-size: 15px;
+    }
+    #carouselExampleCaptions{
+        left: 0%;
+        width: 100%;
+    }
+    #carouselExampleCaptions h5{
+        color: rgb(255, 253, 253);
+        text-transform: uppercase;
+    }
+    
+    #carouselExampleCaptions a{
+     
+        text-transform: uppercase;
+    
+        width: 10px;
+    }
+    
+    .carousel-caption{
+        background-color: #000;
+        border-radius: 10px;
+    }
+
+}
+
+
+ /* Redes */
+
+
+ @media screen and (max-width: 578px) {
+  
+    .contato{
+        height: 110vh;
+     }
+
+    .formulario{
+  
+      
+        width: 100px;
+
+
+    }
+    .entre-cont{
+
+        top: 130px;
+        text-align: center;
+        height: 70px;
+        width: 300px;
+        left: 50px;  
+        font-size: 30px;
+    }
+ 
+    
+    form{
+        position: relative;
+        top: 100px;
+        left: 70px;
+        width: 100px;
+        height: 200px;
+        font-size: 22px;
+    }
+    .env{
+        width: 300px;
+    }
+    .post{
+        position: absolute;
+        left: 10px;
+        width: 220px;
+        height: 30px;
+    
+    }
+    .postm{
+        position: absolute;
+        left: 10px;
+        width: 220px;
+        
+    }
+    .botenv{
+        position: absolute;
+        left: -20px;
+        width: 130px;
+        height: 40px;
+        margin-top: 210px;
+        background-size: 20px 20px;
+    
+    }
+    
+    .botlim{
+        position: absolute;
+        left: 125px;
+        width: 130px;
+        height: 40px;
+        margin-top: 380px;
+        background-size: 20px 20px;
+    }
+    
+    
+    .linkd{
+        position: relative;
+        left: 50px;
+        top: 390px;
+    
+        
+    }
+    
+    
+    
+    .git{
+        position: relative;
+        left: 100px;
+        top: 350px;
+    
+      
+    }
+    
+    
+    
+    .gmail{
+        position: relative;
+        left: 150px;
+        top: 310px;
+    }
+    
+    
+    
+    .whats{
+        position: relative;
+        left: 200px;
+        top: 270px;
+        
+      }
+      
+     
+    }
