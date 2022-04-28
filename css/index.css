@@ -113,14 +113,56 @@ html {
             color: var(--white);
             top: 150px;
             left: 50px;
-            width: 700px;
+            width: 500px;
             background-color:  #203546 ;
             box-shadow: 0 0 10px #20313f, 0 0 40px #273a4a, 0 0 80px #182d3e;
             color: #fff;
             border-radius: 10px;
+            text-transform: uppercase;
             
           
           }
-          
+    
+        
+        #esconder{
+            position: absolute;
+            top: 150px;
+            left: 750px;
+            text-align: center;
+            text-transform: uppercase;
+            cursor: pointer;
+            width: 300px;
+            height: 50px;
+            font-family: poppins;
+            border: 2px solid;
+            border-radius: 10px;
+            font-size: 20px;
+            background-color: #000;
+            color: white;
+            
+        }
+        #esconder:hover{
+            cursor: pointer;
+            background-color:  #203546 ;
+            box-shadow: 0 0 10px #20313f, 0 0 40px #273a4a, 0 0 80px #182d3e;
+          }
+
+          .for{
+
+
+            position: absolute;
+            top: 200px;
+            left: 750px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            border: 2px solid;
+            display: none;
+            font-family: poppins;
+            width: 500px;
+            margin-top: 10px;
+            background-color: #203546;
+            color: #fff;
+            }
  
 

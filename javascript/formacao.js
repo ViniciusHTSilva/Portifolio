@@ -12,17 +12,4 @@ btn.addEventListener('click', function(){
 
 })
 
-var btn2 = document.querySelector('#esconder2');
-var certif =  document.querySelector('.cont-certi');
-
-
-btn2.addEventListener('click', function(){  
-
-    if(certif.style.display === 'block'){
-        certif.style.display = 'none';
-    }else {
-        certif.style.display = 'block';
-    }
-
-})
 
