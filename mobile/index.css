@@ -75,20 +75,18 @@
 
 
 
+
         .conteudo-pro{
             position: relative;
             left: 10px;
-            width: 350px;
+            width: 300px;
             font-size: 13px;
             top: 10px;
         }
 
-        #check:checked ~ section .conteudo-pro{
-           margin-left: 100px;
-
-        
-        
-        }
+     .conteudo-pro h3{
+         width: 150px;
+     }
         
         .pro, .pro-1{
             display: flex;
