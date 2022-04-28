@@ -112,7 +112,7 @@ input{
 }
 .botenv:hover{
   cursor: pointer;
-  color: #000000;
+  color: #ffffff;
   background: green;
   box-shadow: 0 0 10px #00d824, 0 0 40px rgb(33, 228, 3), 0 0 80px #0aea19;
   background-image: url(../image/icons8-enviar-mensagem-24.png);
@@ -141,7 +141,7 @@ input{
 }
 .botlim:hover{
   cursor: pointer;
-  color: #000000;
+  color: #ffffff;
   background: rgb(255, 0, 0);
 
   box-shadow: 0 0 10px #ff0000, 0 0 40px rgb(255, 0, 0), 0 0 80px #ff0000;

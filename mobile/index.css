@@ -219,20 +219,24 @@
         height: 200px;
         font-size: 22px;
     }
+   
     .env{
         width: 300px;
     }
     .post{
         position: absolute;
         left: 10px;
-        width: 220px;
+        width: 260px;
         height: 30px;
+        font-size: 15px;
     
     }
     .postm{
         position: absolute;
         left: 10px;
-        width: 220px;
+        width: 260px;
+        height: 180px;
+        font-size: 15px;
         
     }
     .botenv{
@@ -241,8 +245,12 @@
         width: 130px;
         height: 40px;
         margin-top: 210px;
-        background-size: 20px 20px;
+        background-size: 15px 15px;
     
+    }
+    .botenv:hover{
+
+        background-size: 20px 20px;
     }
     
     .botlim{
@@ -251,9 +259,13 @@
         width: 130px;
         height: 40px;
         margin-top: 380px;
-        background-size: 20px 20px;
+        background-size: 15px 15px;
     }
     
+    .botlim:hover{
+
+        background-size: 20px 20px;
+    }
     
     .linkd{
         position: relative;
