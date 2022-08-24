@@ -33,9 +33,9 @@
 }
   .conteudo-pro{
    position: relative;
-    width: 800px;
+    width: 100%;
+    text-align: center;
     top: 90px;
-    left: 100px;
     color: var(--white);
     font-family: poppins;
     font-size: 25px;

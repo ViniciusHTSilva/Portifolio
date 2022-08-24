@@ -6,10 +6,11 @@
 }
 
 .conteudo-cer{
-width: 800px;
+width: 100%;
 position: relative;
+text-align: center;
 top: 60px;
-left: 50px;
+
 color: var(--white);
 font-family: poppins;
 font-size: 20px;
