@@ -27,15 +27,14 @@
   
 }
 .projetos{
-  background-color: #000;
+  background-color: rgb(120, 120, 120);
   height: 150vh;
   transition: all .5s;
 }
   .conteudo-pro{
    position: relative;
-    width: 100%;
     text-align: center;
-    top: 90px;
+    top: 10px;
     color: var(--white);
     font-family: poppins;
     font-size: 25px;
@@ -44,14 +43,17 @@
   }
 
   #home{
-    position: relative;
-    left: 1300px;
-    top: 40px;
-    width: 30px;
+    position: fixed;
+    left: 89%;
+    top: 94%;
+    width: 140px;
     height: 30px;
-    background-color: #000;
-    color: wheat;
-    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0%80px;
+    font-family:serif;
+    font-size: 20px;
+    text-transform: uppercase;
   }
 
 
