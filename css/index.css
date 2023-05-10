@@ -166,10 +166,12 @@ html {
             }
  
             #image-sobre{
-             width: 500px;
+             width: 300px;
              position: absolute;
-             left: 600px;
+             left: 700px;
              margin-top: 100px;
              display: block;
+             background-repeat: no-repeat;
+             ;
             }
 
