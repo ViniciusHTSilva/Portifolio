@@ -28,7 +28,7 @@
 }
 .projetos{
   background-color: rgb(120, 120, 120);
-  height: 150vh;
+  height: 100vh;
   transition: all .5s;
 }
   .conteudo-pro{
@@ -56,211 +56,56 @@
     text-transform: uppercase;
   }
 
-
-  .pro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-   
-}
-.pro-1{
+#titulo{
+  text-transform: uppercase;
+  font-family: serif;
   display: flex;
   justify-content: center;
-  align-items: center;
-
-  
-}
-
-.publi{
-  width: 900px;
-  padding: 30px;
-  top: 160px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  
-  }
-
-  .publi .card{
-     
-      max-width: 250px;
-      height: 150px;
-      position: relative;
-      margin: 30px 10px;
-      padding: 20px 15px;
-      border-radius: 5px;
-      flex-direction: column;
-      transition: 0.3s ease-in-out;
-      background-color: var(--white);
-      animation-name: animacao;
-      animation-duration: 3s;
-
-  }
-
-  .publi .card:hover{
-      height: 250px;
-
-  }
-
-  .publi .card .jordan{
-      position: relative;
-      width: 270px;
-      height: 150px;
-      top: -50px;
-      z-index: 1;
-      background-image: url(../image/jordan.jpg);
-      background-repeat: no-repeat;
-      background-size: 200px;
-      background-position: 10px;
-    
-  }
-  .publi .card .studio{
-      position: relative;
-      width: 270px;
-      height: 150px;
-      top: -50px;
-      z-index: 1;
-      background-image: url(../image/Studio.png);
-      background-repeat: no-repeat;
-      background-size: 200px;
-      background-position: 10px;
-    
-  }
-
-  .publi .card .clone{
-      position: relative;
-      width: 270px;
-      height: 150px;
-      top: -50px;
-      z-index: 1;
-      background-image: url(../image/Clone.png);
-      background-repeat: no-repeat;
-      background-size: 200px;
-      background-position: 10px;
-    
-  }
-  .publi .card .one{
-    position: relative;
-    width: 270px;
-    height: 150px;
-    top: -50px;
-    z-index: 1;
-    background-image: url(../image/one\ page.png);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    background-position: 10px;
-  
-}
-.publi .card .login{
-  position: relative;
-  width: 270px;
-  height: 150px;
-  top: -50px;
-  z-index: 1;
-  background-image: url(../image/Login.png);
-  background-repeat: no-repeat;
-  background-size: 200px;
-  background-position: 10px;
-
-}
-  
-.publi .card .blog{
-position: relative;
-width: 270px;
-height: 150px;
-top: -50px;
-z-index: 1;
-background-image: url(../image/blog.png);
-background-repeat: no-repeat;
-background-size: 200px;
-background-position: 10px;
-
-}
-
-  .publi .card .texto{
-      position: relative;
-      margin-top: -80px;
-      text-align: center;
-      padding: 10px;
-      color: black;
-      visibility: hidden;
-      transition: 0.3s ease-in-out;
-
-  }
-
-  .publi .card:hover .texto{
-      visibility: visible;
-      transition-delay: 0.1s;
-      cursor: pointer;
-
-  }
-
-  .publi .card .git{
-    position: absolute;
-    left: 10px;
-    top: 98px;
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
-  
-    background-color: #161616;
-    background-image: url(../image/icons8-github-30.png);
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-position: 2px;
-
-    visibility: hidden;
-    transition: 0.3s ease-in-out;
-
-  }
-  .publi .card:hover .git{
-    visibility: visible;
-    transition-delay: 0.1s;
-    cursor: pointer;
-
-}
-
-.git-text{
-  position: relative;
-  top: -7px;
-  color: white;
-  font-family: poppins;
-  font-size:   15px;
   text-align: center;
-  text-decoration: none;
-
+  color: white;
+  border: 1px solid;
 }
-
-.site{
-
-  position: absolute;
-  left: 115px;
-  top: 98px;
-  width: 100px;
-  height: 50px;
-  border-radius: 10px;
-
-  background-color: #ffffff;
  
 
+.carrosel-filmes{
+  width: 100%;
+  height: 300px;
+
 }
-.publi .card:hover .site{
-  visibility: visible;
-  transition-delay: 0.1s;
+
+.item{
+
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+  display: block;
+ 
+ 
+}
+
+
+.box-filme{
+  width:100%;
+  height:200px;
+  border-radius: 10px;
+
+}
+
+.button{
+
+  background-color: #000;
+  color: white;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: serif;
   cursor: pointer;
-
 }
-.site-text{
-  color: #161616;
-  font-family: poppins;
-  font-size:   15px;
-  text-align: center;
-  text-decoration: none;
 
-}
-.texto h3{
-  font-size: 25px;
+.button:hover{
+  background-color: white;
+  color: black;
+  transition-delay: all 0.5s;
 }
