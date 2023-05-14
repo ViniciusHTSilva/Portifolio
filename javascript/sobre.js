@@ -3,17 +3,35 @@ var form =  document.querySelector('.for');
 
 var image = document.querySelector('#image-sobre');
 
-btn.addEventListener('click', function(){  
+btn.addEventListener('mouseover', function(){  
 
-    if(form.style.display === 'block'){
-        form.style.display = 'none';
-    }else {
-        form.style.display = 'block';
-    }
+    form.style.display = 'block';
 
-})
+});
+btn.addEventListener('mouseout', function(){  
 
-btn.addEventListener('click', function(){  
+    form.style.display = 'none';
+
+});
+
+btn.addEventListener('mouseover', function(){  
+
+    image.style.display = 'none';
+       
+});
+
+btn.addEventListener('mouseout', function(){  
+
+    image.style.display = 'block';
+       
+});
+
+
+
+
+
+/*
+btn.addEventListener('mouseover', function(){  
 
     if(image.style.display === 'none'){
         image.style.display = 'block';
@@ -23,4 +41,4 @@ btn.addEventListener('click', function(){
 
 })
 
-
+*/
